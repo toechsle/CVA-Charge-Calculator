@@ -2,7 +2,7 @@
 Database-based application for calculating a bank’s CVA Charge according to Article 384 CRR
 
 
-In order to be able to run the application, the properties file (location: CVA-Charge-Calculator/src/main/resources/application.properties)
+In order to be able to run the application, the properties file (location: src/main/resources/application.properties)
 needs to be adapted.
 
 The content of the file is the following:
