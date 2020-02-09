@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DataInput>
+   
+    <Counterparties>
+        <Counterparty id="1" name="Partner1" article128="FALSE" ratingCRAG="BBB+" ratingDBRS="BBBlow" ratingEHRG="BBB-" ratingFitch="BBB-" ratingJCRA="BBB-" ratingMoodys="Baa2" ratingSandP="BB-"/>
+        <Counterparty id="2" name="Partner2" article128="FALSE" ratingDBRS="Alow"/>   
+    </Counterparties>
+    
+    
+    <Transactions>
+        <Transaction id="10" counterpartyId="1" nettingSetId="2" category="Interest Rate Contracts"  currentMarketValue="2000.00"  nominalValue="35000.00" residualMaturity="10000" optionWriterPosition="FALSE" basisSwap="FALSE" cvaHedge="FALSE"/>
+        <Transaction id="40" counterpartyId="1" nettingSetId="2" category="Contracts Concerning Equities"  currentMarketValue="4500.60"  nominalValue="39000.00" residualMaturity="9003" optionWriterPosition="FALSE" basisSwap="TRUE" cvaHedge="FALSE"/>
+        <Transaction id="50" counterpartyId="1" category="Other Contracts" currentMarketValue="2003.45"  nominalValue="28000.00" residualMaturity="1403" optionWriterPosition="FALSE" basisSwap="FALSE" cvaHedge="TRUE" referencedCounterpartyId="2"/>
+        <Transaction id="30" counterpartyId="2" category="Other Contracts" currentMarketValue="4000.00" nominalValue="32000.00" residualMaturity="100" optionWriterPosition="FALSE" basisSwap="FALSE" cvaHedge="TRUE"/>             
+    </Transactions>
+    
+    
+    <Collaterals>
+        <Collateral id="2" netCollateralReceived="200.00"/>      
+    </Collaterals>
+       
+</DataInput>
+
+
+
+
