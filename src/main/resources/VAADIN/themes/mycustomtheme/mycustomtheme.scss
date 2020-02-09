@@ -1,0 +1,19 @@
+//$v-background-color: hsl(192°, 61%, 51%);
+//$v-font-color: rgb(255, 255, 255);
+
+$v-app-background-color: hsl(192°, 61%, 51%);
+$v-background-color: hsl(199°, 44%, 89%);
+
+@import "../valo/valo.scss";
+
+
+@mixin mycustomtheme {
+
+  @include valo;
+
+  .whiteText {
+    color: white;
+  }
+
+
+}

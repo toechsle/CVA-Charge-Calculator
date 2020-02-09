@@ -1,0 +1,5 @@
+@import "mycustomtheme.scss";
+
+.mycustomtheme {
+  @include mycustomtheme;
+}
