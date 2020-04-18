@@ -20,3 +20,7 @@ In case you want to use a database other than MySQL or an ORM framework other th
 to be adapted as well.
 
 To run the CVA Charge Calculator with actual data you can use the file "ExampleDataInput.xml".
+
+
+******************************************************************************************************************************************************
+For a video presentation of the application see file "cva_charge_calculator.MP4".
